@@ -1,0 +1,42 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "allure-generate": "npx allure generate ./allure-results --clean",
+    "allure-open": "npx allure open allure-report",
+    "clean": "rimraf target @rerun.txt",
+    "postinstall": "serenity-bdd update",
+    "test:serenity": "failsafe clean test:execute test:failed test:report",
+    "test:execute": "cross-env APP_ENV=qa --headed=off --browser=msedge cucumber-js --tags=@ui",
+    "test:failed": "cucumber-js -p rerun @rerun.txt",
+    "test:report": "serenity-bdd run",
+    "test": "cross-env ENV=qa FORCE_COLOR=0 cucumber-js --config=config/cucumber.js || true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.0",
+    "@playwright/test": "^1.41.1",
+    "@serenity-js/console-reporter": "^3.15.1",
+    "@serenity-js/core": "^3.15.1",
+    "@serenity-js/cucumber": "^3.15.1",
+    "@serenity-js/serenity-bdd": "^3.15.1",
+    "@serenity-js/web": "^3.15.1",
+    "@types/node": "^20.11.5",
+    "ajv": "^8.12.0",
+    "allure-commandline": "^2.26.0",
+    "allure-playwright": "^2.11.1",
+    "cross-env": "^7.0.3",
+    "fs-extra": "^11.2.0",
+    "multiple-cucumber-html-reporter": "^3.6.1",
+    "npm-failsafe": "^1.2.0",
+    "winston": "^3.11.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "dotenv": "^16.4.1"
+  }
+}

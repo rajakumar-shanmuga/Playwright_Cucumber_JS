@@ -1,0 +1,799 @@
+{
+  "cookies": [
+    {
+      "name": "ak_bmsc",
+      "value": "0707AB449652FE10D91193717F86BB8A~000000000000000000000000000000~YAAQ0fjaF0q3XWSNAQAA+htwchbDHrVwLIPq0VfpS6ooyP9KhOCEXRUFGvqiW83PE+o0c8G73cpTHMOoesBoykVwt6CoQ/O/xgOVlj26cGSRBbdDJib+Xg9v1JX8Nv04THVZfAvvZSmd6VPYdj+B0x0dS/1UFIh1KxpfHQso0kU0wKN6YX9U+Jh71nPq5MwwzaBVWJ3xXFOssHfkoBhhC9Dv6Q7lYkB3ZnMI9BaLj9ZjA+hyujpHcONhTulptcnXB543vDQ7sB3iquDfINrN/tQycv8lWKGgxK158QHU3oR1OMC98ifywxN4YkVOXnDgWi6jnE9xV0V3uczZeuVd4lwokzt9Bc8GLGdUnU+jQofxu3kJoLtZ+K6acngnNUF5DYavoTR80QlpSA==",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1707029166.370218,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "DCID",
+      "value": "www12",
+      "domain": "www.discover.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "DCID",
+      "value": "www12",
+      "domain": "portal.discover.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "demdex",
+      "value": "46160442872022358792126582855889950140",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1722573967.507167,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_s",
+      "value": "bAY34esM%2FFGm34E7lNHZbO3DbDG%2FUFBrBQ5%2BN0hChg25Or8J4IjYq92eBI17K3KW",
+      "domain": ".app.link",
+      "path": "/",
+      "expires": 1738557967.520403,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "kndctr_0D6C4673527839230A490D45_AdobeOrg_cluster",
+      "value": "va6",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1707023775.327818,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "kndctr_0D6C4673527839230A490D45_AdobeOrg_identity",
+      "value": "CiY1NTI0NDIzMTE2OTY4OTA1MDI2MTIzNTkzMTkzNDEwNzYxNzU2MVISCOPAwJPXMRABGAEqA1ZBNjAA8AHjwMCT1zE=",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1741149967,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AMCV_0D6C4673527839230A490D45%40AdobeOrg",
+      "value": "MCMID|55244231169689050261235931934107617561",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1740717967,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rlas3",
+      "value": "gm7LctBYgUmrXQMkRt6jIIOn/2oWO5JWwfV1AyOque8=",
+      "domain": ".rlcdn.com",
+      "path": "/",
+      "expires": 1738557967.785535,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_svsid",
+      "value": "8936e6142bdcef2aa56cd1a26b1ccda0",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1738557968,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "thx_guid",
+      "value": "ab0a3b3e7843219e0beda57717dc3486",
+      "domain": "content.discover.com",
+      "path": "/",
+      "expires": 1741581968.58671,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_svsidss",
+      "value": "8936e6142bdcef2aa56cd1a26b1ccda0",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1738557968.60164,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1164623045.1707021970",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1714797970,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "zync-uuid",
+      "value": "c21993a1-54d5-422a-9b52-e5f7cdca1b54:1707021970.295359",
+      "domain": ".rezync.com",
+      "path": "/",
+      "expires": 1740717970.359642,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sd-session-id",
+      "value": "eyJfcGVybWFuZW50Ijp0cnVlLCJzZXNzaW9uX2lkIjoiYzIxOTkzYTEtNTRkNS00MjJhLTliNTItZTVmN2NkY2ExYjU0OjE3MDcwMjE5NzAuMjk1MzU5In0.Zb8Wkg._ogcVdSPvtICRPLi5R3ee3iO4Sk",
+      "domain": "live.rezync.com",
+      "path": "/",
+      "expires": 1740717970.359748,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ttp",
+      "value": "2bt6LHkqV2G96GUdFr0am9eDsmf",
+      "domain": ".tiktok.com",
+      "path": "/",
+      "expires": 1740717970.412309,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "A3",
+      "value": "d=AQABBJIWv2UCEHhtJi-pOjJLGQI9I6wlS8kFEgEBAQFowGXIZdw00iMA_eMAAA&S=AQAAAmbrCvE-uKFm6b_fcyJzF-0",
+      "domain": ".yahoo.com",
+      "path": "/",
+      "expires": 1738579575.746629,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_uetsid",
+      "value": "5189dc50c31811ee9058ef6520c23af6",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1707108370,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetvid",
+      "value": "518a2960c31811ee94159b8bec3a62ac",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1740717970,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "1CA72DE313866A50327139F812E46BED",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1740717970.992863,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".bat.bing.com",
+      "path": "/",
+      "expires": 1707626770.992987,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1707021971293.1471641497",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1714797971,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_rdt_uuid",
+      "value": "1707021971511.e2ee6af1-2aa1-41e4-8ec3-4bc7bcc1e2c2",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1714797971,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "__spdt",
+      "value": "0e742292652c48b09cfefd0997abc113",
+      "domain": "www.discover.com",
+      "path": "/",
+      "expires": 1738557971,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "personalization_id",
+      "value": "\"v1_i3c6X5SGFpElevsMCT+VMw==\"",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1741581971.730419,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUnpmB6CqDAZzOG0-tJzrceOBLeUmGINLpMvGdA0Ut15AF9TvjiBhixeVe6g8LQ",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1741581971.777396,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "receive-cookie-deprecation",
+      "value": "1",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1722573975.365589,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "muc_ads",
+      "value": "4384aac7-ad28-4d98-aeac-e1b6fcec3c04",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1741581971.838047,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cs_c",
+      "value": "0",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1741185971,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "s_vncm",
+      "value": "1709272799184%26vn%3D1",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1709272799,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_ivc",
+      "value": "true",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1707023774,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mbox",
+      "value": "session%2355244231169689050261235931934107617561%2DYrWTQo%231707023834",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1741581974.483029,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "mboxEdgeCluster",
+      "value": "34",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1707023774.483141,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.478323261.1707021972",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1741581974.498634,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1794352722.1707021974",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1707108374,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_gtag_UA_86340905_3",
+      "value": "1",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1707022034,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tt_enable_cookie",
+      "value": "1",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1740717974,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ad-id",
+      "value": "A18X-4eD8kHTgcxu1_9_dAg",
+      "domain": ".amazon-adsystem.com",
+      "path": "/",
+      "expires": 1727757974.775853,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ad-privacy",
+      "value": "0",
+      "domain": ".amazon-adsystem.com",
+      "path": "/",
+      "expires": 1741581974.775983,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ttp",
+      "value": "RZTFT44Gsw0or5D4MTSb_d_Mazi",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1740717974,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "lmod",
+      "value": "false",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1707022874,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cs_id",
+      "value": "3b08f986-027e-a174-b492-d0c83bf76eb9.1707021975.1.1707021975.1707021975.1627927880.1741185975052.1",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1741185975,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_dpm_ses.d735",
+      "value": "*",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1707023775,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_dpm_id.d735",
+      "value": "a1ff1aad-e172-4080-959c-9c0bbfd3156e.1707021975.1.1707021975.1707021975.06505190-1654-4200-8fb9-13afc12dce43",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1738557975,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cs_id___2052",
+      "value": "3b08f986-027e-a174-b492-d0c83bf76eb9.1707021975.1.1707021975.1707021975.1627927880.1741185975052.1",
+      "domain": ".cdnssl.clicktale.net",
+      "path": "/",
+      "expires": 1741185975,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_D9J",
+      "value": "20c8fdcd366844fcb7b1d14f55673a7b",
+      "domain": ".flashtalking.com",
+      "path": "/",
+      "expires": 1738557975.563019,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sp",
+      "value": "dc156cb6-3595-4f3e-8f9a-1b0847e84af3",
+      "domain": ".tvpixel.com",
+      "path": "/",
+      "expires": 1738557975.75754,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cs_s",
+      "value": "1.5.0.1707023775656",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1707023775,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cs_s___2052",
+      "value": "1.5.0.1707023775656",
+      "domain": ".cdnssl.clicktale.net",
+      "path": "/",
+      "expires": 1707023775,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ar_debug",
+      "value": "1",
+      "domain": ".pinterest.com",
+      "path": "/",
+      "expires": 1738557977.820584,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_pin_unauth",
+      "value": "dWlkPU56UXdNakZqTVRrdE1tUmpOUzAwTTJNekxXRTJaV010T0Rka1pHVXhOREZsWmpnMg",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1738557977,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TDID",
+      "value": "d8895c68-48eb-4aaf-b8b5-cf66edf391f2",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1738644378.594346,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "XANDR_PANID",
+      "value": "I4nXIh0OHUHsI69oFs3H_OUf-j7vHxQ5t5XClethQz1qzlVolOsUSz3-Hgcem-cUmxHepgggHnDyL_oNqlSGfI8cvnQlKO9OjN-1fuLcgaA.",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1714797978.541754,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "receive-cookie-deprecation",
+      "value": "1",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1741581978.541853,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uuid2",
+      "value": "2945418879950500496",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1714797978.541908,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "khaos",
+      "value": "LS70T8C7-11-M2YB",
+      "domain": ".rubiconproject.com",
+      "path": "/",
+      "expires": 1738557978.541136,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "audit",
+      "value": "1|yg8rN9TnM/UZURz+hUC2QzNOHLviS+lOimNWlNb7Ja8hQ+SPewNeFcsX/PvAnHuDYJP04/s1f2+M1KxoLazIt9i2Wk5FrGos0XY24Ec+XLu2zGtGLsfGIxVYEcEOFR8fB+aPgVdsgoay8ltOetUnqHk5SEaSrrv1vqAH+LZKodtbOz6AjJtUa8ZnH3r7x5VAdeodiyl5GGjkt77VmXBK7kiCfUmSYXqD+ohH/uuQN8oOr/S07bYDcYQkZmofZQkSVSwKu1RXSJT0/fhu8/pkBO4VeIulq+4M1TRwmTZWV3Xc6UO785F0Pw==",
+      "domain": ".rubiconproject.com",
+      "path": "/",
+      "expires": 1738557978.541269,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TDCPM",
+      "value": "CAESFwoIYXBwbmV4dXMSCwjU8d-kyNHSPBAFEhYKB3J1Ymljb24SCwjKk-CkyNHSPBAFEhUKBmdvb2dsZRILCPjlhKjI0dI8EAUYBSACKAMyCwjeyuLR3tHSPBAFQg8iDQgBEgkKBXRpZXIxEAFaB2hzbnF2NXRgAQ..",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1738644378.594435,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "marqueeIndex",
+      "value": "1010",
+      "domain": "www.discover.com",
+      "path": "/",
+      "expires": 1738557991,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "marqueeStatus",
+      "value": "known",
+      "domain": "www.discover.com",
+      "path": "/",
+      "expires": 1738557991,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sv",
+      "value": "79896FF9B26E5CE42B387C2CAE5FC636~YAAQ1B/XFxrp4WKNAQAARn5wchb2mmhn+zbX+wmZsgR6XIZDt0RLO62FzvqNoXl+EGAuH3R/Iq4fLk3c6WA+pjzaWsphZo2FEw3FnUJyGGlCYuvqyPIaD1XnUrrkTb8tEuAC4e1MbOblMfejnri7UQUKwZmwJPt5GdKibHBZgzFKegHsj+33F5zrskdG/Wn3eqegsp5cuNtrlGumz1+M+YO4gSPBSKzyQXflhjI+7FrrdSqhTgClJKA81pYaF/Etb2k=~1",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1707029191.533121,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sz",
+      "value": "1F57A80B8661D2B4D8AB94EC3BCE2265~YAAQ1B/XFxvp4WKNAQAARn5wchbOgcc4a1wWRMA1U/esU4rmKjQSBwcIjfdeSY7c5ytrqDlpKYd6qsmD/thdcmzIfdMbViOabaggR5efT+aIRIBmDlvtXeSb8N5gnzVoNTBqdEFRpdrsP7wix/wAbe+B4kEz3WcMU3DcHsL4nEpoiW0Ni8U6CJx24OEeBWid8kjg/xm/MPKQyvJAhiK51xnRiub2Wni+9CJ+oAt64zIVSCf1ch30Bn+fY8afOuhWXgPg9Wu7E3Fi6e4AfYNc9XSTk4WeCHimTE3mV4dSKPkZBHFf68OkpMrAZZEll8CG17mOboU8ydBQSap8YFKm8yqPmegIYa+gU0HDGtGVlRal3c4VEe61SfzZLIPzs6Xvz6KvyV1Uge2M2n/U+dn57ZekpAVrJQ0sX3ck2AZcBuwlcNILBz2GlFQLRVyGv41s4sVb/roEgZtDo5CtEj7jlOvxQD0o9Q==~4600897~4340019",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1707036366.533226,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "RT",
+      "value": "\"z=1&dm=www.discover.com&si=7eb59ca0-6870-43bc-9bcc-daa98cbcacef&ss=ls70sywe&sl=1&tt=8xl&bcn=%2F%2F17de4c17.akstat.io%2F&ld=8xq&nu=5hiwx75&cl=jd2&ul=jdi&hd=jif\"",
+      "domain": ".www.discover.com",
+      "path": "/",
+      "expires": 1707626791,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_3MJNPV4VSE",
+      "value": "GS1.1.1707021971.1.1.1707021991.40.0.0",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1741581991.557306,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MSPTC",
+      "value": "YRGLixNtFcxZubnpuvq5ymBxaghFdgR999hbnJl6siU",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1740717992.560294,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "s_pers",
+      "value": "%20s_dfa%3Ddiscoverglobalprod%252Cdiscovercardservicingprod%7C1707023791901%3B",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1707023791,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_abck",
+      "value": "64801F7C482783BD7D930AF23EAEA447~-1~YAAQ1B/XF8np4WKNAQAAJIZwcgspF5SfJ8ywuX5poGhtCt/uQqTLpipOzxB4lZT267hddsB/1zcszeMMaeWtKN0+ec19+Jrmr0xZQRHzrmBQPJCQh1zrdyzHbjlfn1yW5HEO0ZS+MCFz1j6H/oPscSHNeplUnzRjJ2Mp2bKsy0k6w0D39nv9SZYfgKRbA+bURlmwBPDNs3Ui3ftlmYVH+RInJgyoZEYR45pkuu01MtdahZj2ICnsW5ezSQHQqBbn6P/fGByy9F5u+UX/qzssuWYAjO6gqQLTTXkQpyi8WQgz+gfGYtcxWeWKbkOG8HKUdQEOb7PgsIr55N6Fct2h0edAsbu+jE7wLKZ9ST/YI+ZN8QI9D9gjpfgl28h1s9rsuCesskqRNsu87StF+4hZ/Wo7DR5SwvAGtHip4HBlXAD+tCtPhEAwtxahNfUazbCPCvinjoy2VR/f4SZaBfIDCOwIoaDtyrVStFZadmw8Jjeev8CO/ecNFLc=~-1~-1~-1",
+      "domain": ".discover.com",
+      "path": "/",
+      "expires": 1738557993.543791,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.discover.com",
+      "localStorage": [
+        {
+          "name": "ak_a",
+          "value": "64801F7C482783BD7D930AF23EAEA447"
+        },
+        {
+          "name": "_uetsid",
+          "value": "5189dc50c31811ee9058ef6520c23af6"
+        },
+        {
+          "name": "_svsid",
+          "value": "8936e6142bdcef2aa56cd1a26b1ccda0"
+        },
+        {
+          "name": "snowplowOutQueue_dpm_co_post2.expires",
+          "value": "1770093976364"
+        },
+        {
+          "name": "ed73f20edbf2b73",
+          "value": "750520ea7ee64d379cd9d1cb77ba3281_1862541971149"
+        },
+        {
+          "name": "com.adobe.reactor.core.visitorTracking.sessionCount",
+          "value": "1"
+        },
+        {
+          "name": "ak_ax",
+          "value": "-1"
+        },
+        {
+          "name": "CTguid",
+          "value": "fd145cf2-4109-439c-97f8-e0bc3c3e290d"
+        },
+        {
+          "name": "CTuserID",
+          "value": "3b08f986-027e-a174-b492-d0c83bf76eb9.1707021975.1.1707021975.1707021975.1627927880.1741185975052.1~1.5.0.1707023775656~0~"
+        },
+        {
+          "name": "_uetvid_exp",
+          "value": "Fri, 28 Feb 2025 04:46:10 GMT"
+        },
+        {
+          "name": "com.adobe.reactor.core.maxFrequency.RLda9a3835193049a082446f548f2f27ea.session",
+          "value": "1"
+        },
+        {
+          "name": "com.adobe.reactor.core.visitorTracking.cookiesMigrated",
+          "value": "true"
+        },
+        {
+          "name": "com.adobe.reactor.core.visitorTracking.pagesViewed",
+          "value": "1"
+        },
+        {
+          "name": "CTrecordingLink",
+          "value": "https://app.contentsquare.com/quick-playback/index.html?pid=2052&uu=3b08f986-027e-a174-b492-d0c83bf76eb9&sn=1&pvid=1&recordingType=cs&vd=ol"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "_uetsid_exp",
+          "value": "Mon, 05 Feb 2024 04:46:10 GMT"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1707021971282"
+        },
+        {
+          "name": "snowplowOutQueue_dpm_co_post2",
+          "value": "[]"
+        },
+        {
+          "name": "CTpartition",
+          "value": "www15"
+        },
+        {
+          "name": "_svidstore_datalayer",
+          "value": "{\"d\":{\"data\":{\"hmid\":\"8516c70b57edc4dc4db617c4b266956e9e20b8a3cbae7ede4393c3f01c1f049f\",\"confidence_score\":5,\"cluster_segment_cd\":\"T\",\"card_member_ind\":\"\"},\"response\":\"match\",\"version\":\"1.0.0\"},\"t\":1707021969116,\"e\":1707021969116}"
+        },
+        {
+          "name": "ed73f20edbf2b74",
+          "value": "0:1:1707021967874:1707021967874:e4f0a48cc70ddb0b5174db1ec6ef0ac1"
+        },
+        {
+          "name": "_uetvid",
+          "value": "518a2960c31811ee94159b8bec3a62ac"
+        },
+        {
+          "name": "branch_session_first",
+          "value": "{\"browser_fingerprint_id\":\"MTI4MjU0OTk2NzQyMDkxNTA4Nw==\",\"data\":\"{\\\"+clicked_branch_link\\\":false,\\\"+is_first_session\\\":true}\",\"has_app\":false,\"identity_id\":\"1282549972235123752\",\"link\":\"https://app.discover.com/a/key_live_gevPwVGxd97F95YmLl3jThcjvxgKTSvI?%24identity_id=1282549972235123752\",\"session_id\":\"1282549972239738819\",\"identity\":null}"
+        }
+      ]
+    },
+    {
+      "origin": "https://content.discover.com",
+      "localStorage": [
+        {
+          "name": "ed73f20edbf2b73",
+          "value": "fea8f2f1d8c64883a14ba79a03bdcc80_1862541972242"
+        }
+      ]
+    },
+    {
+      "origin": "https://portal.discover.com",
+      "localStorage": [
+        {
+          "name": "ak_a",
+          "value": "64801F7C482783BD7D930AF23EAEA447"
+        },
+        {
+          "name": "ak_ax",
+          "value": "-1"
+        },
+        {
+          "name": "ed73f20edbf2b73",
+          "value": "d1ec8348f0a54c2699dce8f8523f5ecd_1862541992428"
+        }
+      ]
+    }
+  ]
+}

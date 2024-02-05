@@ -1,0 +1,18 @@
+{
+    "login": {
+        "username": "anshika000@gmal.com",
+        "password": "Iamking@111"
+    },
+    "orders": {
+        "productNames": [
+            "ZARA COAT 3",
+            "ADIDAS ORIGINAL",
+            "IPHONE 13 PRO"
+        ],
+        "countries": [
+            "India",
+            "Cuba",
+            "United States"
+        ]
+    }
+}
