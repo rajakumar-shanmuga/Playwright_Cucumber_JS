@@ -8,6 +8,7 @@ Feature: Amazon
     When select item desired color "<color>"
     When add to cart
     But with no protection
+    Then item added successfully
     When navigate to cart
     Then verify selected item is present on the cart
 

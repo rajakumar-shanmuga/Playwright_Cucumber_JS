@@ -30,6 +30,9 @@ Then('verify selected item is present on the cart', async function () {
     await poManager.getAmazonPage().verifyItemPresentOnCart();
 });
 
+Then('item added successfully', async function () {
+    await poManager.getAmazonPage().verifyItemAddedSuccessfully();
+});
 
 When('with no protection', async function () {
     await poManager.getAmazonPage().selectNoProtection()

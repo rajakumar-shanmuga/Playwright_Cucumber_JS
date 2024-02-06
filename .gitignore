@@ -7,3 +7,4 @@ node_modules/
 cucumber-report.html
 @rerun.txt
 index.html
+/blob-report/

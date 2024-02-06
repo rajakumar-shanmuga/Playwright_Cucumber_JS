@@ -5,12 +5,13 @@ class AmazonPage {
         this.page = page;
         this.logger = logger;
         this.seachBox = this.page.locator('#twotabsearchtextbox');
-        this.searchResults = this.page.locator('.s-search-results [data-component-type=s-search-result]');
+        this.searchResults = this.page.locator('.s-search-results [data-component-type=s-search-result] [data-cy=title-recipe]');
         this.phoneColors = this.page.locator('#variation_color_name [id*=color_name] img');
         this.addToCart = this.page.locator('#add-to-cart-button');
-        this.cart = this.page.locator('#nav-cart-text-container');
+        this.cart = this.page.getByLabel('1 item in cart');
         this.cartItemList = this.page.locator('.sc-list-item-content .a-truncate-cut');
-        this.protectionNotReq = this.page.locator('[aria-labelledby=attachSiNoCoverage-announce]')
+        this.protectionNotReq = this.page.locator('[aria-labelledby=attachSiNoCoverage-announce]');
+        this.AddedToCartText = this.page.locator('span:has-text("Added to Cart")');
     }
 
     async searchWithKeyword(searchKeyword) {
@@ -18,16 +19,17 @@ class AmazonPage {
         await this.seachBox.click();
         await this.seachBox.fill(searchKeyword, { delay: 10 });
         await this.page.keyboard.press('Enter');
-        await this.page.waitForLoadState();
         this.logger.info('search keyword: ' + searchKeyword);
     }
 
     async selectDesiredItem(item) {
         let data;
+        await this.searchResults.first().waitFor({waitUntil:'domcontentloaded',timeout:6000});
         const count = await this.searchResults.count();
+    
         this.item = item;
         for (let i = 0; i < count; i++) {
-            const desiredItem = await this.searchResults.locator('[data-cy=title-recipe]').nth(i);
+            const desiredItem = await this.searchResults.nth(i);
             data = await desiredItem.textContent()
             if (data.includes(item)) {
                 await desiredItem.locator('h2 a').click();
@@ -54,17 +56,17 @@ class AmazonPage {
 
     async addItemToCart() {
         await this.addToCart.first().click()
-        await this.page.waitForLoadState();
         this.logger.info('item added to cart');
     }
 
     async gotoCart() {
+        await this.cart.waitFor({state:'visible'});
         await this.cart.click()
-        await this.cartItemList.last().waitFor();
         this.logger.info('navigated to cart page');
     }
 
     async verifyItemPresentOnCart() {
+        await this.cartItemList.waitFor({state:'visible',timeout:5000})
         const count = await this.cartItemList.count();
         expect(1).toBe(count);
         const itemName = await this.cartItemList.textContent();
@@ -73,8 +75,12 @@ class AmazonPage {
 
     async selectNoProtection() {
         await this.protectionNotReq.first().click();
-        await this.page.waitForLoadState('domcontentloaded');
         this.logger.info('no protection is selected');
+    }
+
+    async verifyItemAddedSuccessfully() {
+        await expect(this.AddedToCartText).toContainText('Added to Cart');
+        this.logger.info('item added successfully');
     }
 
 }

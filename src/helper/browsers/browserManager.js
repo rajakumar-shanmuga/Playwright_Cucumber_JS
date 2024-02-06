@@ -9,10 +9,10 @@ const invokeBrowser = async () => {
         case "chrome":
             return await playwright['chromium'].launch(browserOptions);
         case "firefox":
-            delete options['channel'];
+            delete browserOptions['channel'];
             return await playwright['firefox'].launch(browserOptions);
         case "safari":
-            options['channel'];
+            delete browserOptions['channel'];
             return await playwright['webkit'].launch(browserOptions);
         case "msedge":
             return await playwright['chromium'].launch(browserOptions);
